@@ -1,0 +1,24 @@
+*
+{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+p{
+    font-size: 50px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+background:linear-gradient(rgb(233, 233, 180),red);
+height: 10%;
+border-radius:10px;
+}
+
+::-webkit-scrollbar-track{
+    background: black;
+}
